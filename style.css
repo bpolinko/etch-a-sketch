@@ -1,0 +1,57 @@
+.topBox {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+#generate {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#directions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 400px;
+  height: 400px; 
+  border: 1px solid black;
+  margin-top: 10px;
+    
+}
+
+.square {
+  
+  border: 1px solid black;
+  box-sizing: border-box; 
+
+}
+
+
+.colorContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+        
+.eraser {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+}
+
+#white {
+    align-content: center;
+}
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
