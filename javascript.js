@@ -69,7 +69,7 @@ const btn = document.querySelector("button");
 function makeGrid() {
     for (let i = 0; i < (answer * answer); i++) {
         const gridSquare = document.createElement("div");
-        const dim = 400 / answer;
+        const dim = 600 / answer;
         const dimension = dim + "px";
         gridSquare.style.height = dimension;
         gridSquare.style.width = dimension;
